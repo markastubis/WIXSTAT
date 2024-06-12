@@ -1,0 +1,6 @@
+Some interpretation(WIXSTAT):
+
+infact the data is stationary because the ADF test statistic is -6.8396 which falls below the critical value of -3.96 allowing us to reject h0 at 99% confidence level, which indicates that the time series is stationary. Also it is reinforced by the ACF and PACF plots, where the autocorrelations fall within the confidence bounds, showing no sustained pattern.
+
+ACF plot shows strong autocorrelations out to a large number of lags whcih slowly fade as the lags increase. This pattern is usualy an AR component, as the current value has a prolonged relationship with its past values.
+PACF exibits a sharp cut-off after the first lag wich suggests a single significant AR term. This indicates that an AR1 model may fit.
